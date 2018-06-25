@@ -1,5 +1,4 @@
 defmodule Anagram do
-  @moduledoc false
 
   def anagram?(a, b) when is_binary(a) and is_binary(b) do
     sort_string(a) == sort_string(b)
