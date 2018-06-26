@@ -1,5 +1,5 @@
 defmodule Example do
-  require Logger
+  #  require Logger
 
   def timed(fun, args) do
     {time, result} = :timer.tc(fun, args)
@@ -24,7 +24,7 @@ defmodule Example do
   end
 
   def test do
-    Logger.log("This is a log message")
+    #    Logger.log("This is a log message")
   end
 
   defmacro hygienic do
